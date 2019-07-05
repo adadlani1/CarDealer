@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.car.form.AdminForm">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="10" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="388"/>
+    </constraints>
+    <properties>
+      <background color="-14671581"/>
+      <enabled value="false"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="aa0c8" class="javax.swing.JButton" binding="createALoginButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Create a Login"/>
+        </properties>
+      </component>
+      <component id="dd71c" class="javax.swing.JLabel" binding="menuTitle">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="28"/>
+          <foreground color="-1"/>
+          <text value="What would you like to do?"/>
+        </properties>
+      </component>
+      <component id="99464" class="javax.swing.JButton" binding="sellCarsButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="296" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <enabled value="true"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Sell Cars"/>
+        </properties>
+      </component>
+      <component id="9176d" class="javax.swing.JButton" binding="calculateRevenueButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Calculate Revenue"/>
+        </properties>
+      </component>
+      <component id="973e3" class="javax.swing.JButton" binding="searchForCarsButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="296" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Search For Cars"/>
+        </properties>
+      </component>
+      <component id="b450d" class="javax.swing.JButton" binding="addCarsButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="296" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Add Cars"/>
+        </properties>
+      </component>
+      <component id="7d0ee" class="javax.swing.JButton" binding="addACarButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Add a Car"/>
+        </properties>
+      </component>
+      <component id="66bd0" class="javax.swing.JButton" binding="printCarsButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="259" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Print Cars"/>
+        </properties>
+      </component>
+      <hspacer id="1791d">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="263c1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="7251c">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3e89a">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="22d95">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="cb15d">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="91eb6">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="4ae15">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="c9f0a">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

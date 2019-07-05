@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.car.form.AddACar">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="27" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="641" height="815"/>
+    </constraints>
+    <properties>
+      <background color="-14671581"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4f1e1" class="javax.swing.JTextField" binding="regNumField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="84803" class="javax.swing.JLabel" binding="regNum">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Registration Number*"/>
+        </properties>
+      </component>
+      <component id="bf12c" class="javax.swing.JTextField" binding="carNameField">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="56f03" class="javax.swing.JLabel" binding="carName">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Car Name*"/>
+        </properties>
+      </component>
+      <component id="afa2e" class="javax.swing.JLabel" binding="type">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Type*"/>
+        </properties>
+      </component>
+      <component id="7a2ac" class="javax.swing.JLabel" binding="vanSize">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="If Van, what size?"/>
+        </properties>
+      </component>
+      <component id="70a17" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Arial Black" size="28"/>
+          <foreground color="-1"/>
+          <text value="Add a Car"/>
+        </properties>
+      </component>
+      <component id="d3e18" class="javax.swing.JTextField" binding="colourField">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="f0906" class="javax.swing.JTextField" binding="mileageField">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="9a72d" class="javax.swing.JLabel" binding="colour">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Colour*"/>
+        </properties>
+      </component>
+      <component id="30e9b" class="javax.swing.JLabel" binding="mileage">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Mileage*"/>
+        </properties>
+      </component>
+      <component id="3d4b3" class="javax.swing.JTextField" binding="accHistField">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f014c" class="javax.swing.JLabel" binding="accidentHistory">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Accident History*"/>
+        </properties>
+      </component>
+      <component id="e9263" class="javax.swing.JTextField" binding="priceField">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="acc37" class="javax.swing.JLabel" binding="price">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Price*"/>
+        </properties>
+      </component>
+      <component id="9d7af" class="javax.swing.JLabel" binding="datePurchased">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Date Arrived*"/>
+        </properties>
+      </component>
+      <component id="213b2" class="javax.swing.JLabel" binding="dateSold">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Date Sold"/>
+        </properties>
+      </component>
+      <component id="7dfe0" class="javax.swing.JButton" binding="addCarButton" default-binding="true">
+        <constraints>
+          <grid row="25" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8497214"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Add Car "/>
+        </properties>
+      </component>
+      <component id="10ce9" class="javax.swing.JComboBox" binding="yearSoldComboBox">
+        <constraints>
+          <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <model>
+            <item value=""/>
+            <item value="2020"/>
+            <item value="2019"/>
+            <item value="2018"/>
+            <item value="2017"/>
+            <item value="2016"/>
+            <item value="2015"/>
+            <item value="2014"/>
+            <item value="2013"/>
+            <item value="2012"/>
+            <item value="2011"/>
+            <item value="2010"/>
+            <item value="2009"/>
+            <item value="2008"/>
+            <item value="2007"/>
+            <item value="2006"/>
+            <item value="2005"/>
+            <item value="2004"/>
+            <item value="2003"/>
+            <item value="2002"/>
+            <item value="2001"/>
+            <item value="2000"/>
+            <item value="1999"/>
+            <item value="1998"/>
+            <item value="1997"/>
+            <item value="1996"/>
+            <item value="1995"/>
+            <item value="1994"/>
+            <item value="1993"/>
+            <item value="1992"/>
+            <item value="1991"/>
+            <item value="1990"/>
+            <item value="1989"/>
+            <item value="1988"/>
+            <item value="1987"/>
+            <item value="1986"/>
+            <item value="1985"/>
+            <item value="1984"/>
+            <item value="1983"/>
+            <item value="1982"/>
+            <item value="1981"/>
+            <item value="1980"/>
+            <item value="1979"/>
+            <item value="1978"/>
+            <item value="1977"/>
+            <item value="1976"/>
+            <item value="1975"/>
+            <item value="1974"/>
+            <item value="1973"/>
+            <item value="1972"/>
+            <item value="1971"/>
+            <item value="1970"/>
+            <item value="1969"/>
+            <item value="1968"/>
+            <item value="1967"/>
+            <item value="1966"/>
+            <item value="1965"/>
+            <item value="1964"/>
+            <item value="1963"/>
+            <item value="1962"/>
+            <item value="1961"/>
+            <item value="1960"/>
+            <item value="1959"/>
+            <item value="1958"/>
+            <item value="1957"/>
+            <item value="1956"/>
+            <item value="1955"/>
+            <item value="1954"/>
+            <item value="1953"/>
+            <item value="1952"/>
+            <item value="1951"/>
+            <item value="1950"/>
+            <item value="1949"/>
+            <item value="1948"/>
+            <item value="1947"/>
+            <item value="1946"/>
+            <item value="1945"/>
+            <item value="1944"/>
+            <item value="1943"/>
+            <item value="1942"/>
+            <item value="1941"/>
+            <item value="1940"/>
+            <item value="1939"/>
+            <item value="1938"/>
+            <item value="1937"/>
+            <item value="1936"/>
+            <item value="1935"/>
+            <item value="1934"/>
+            <item value="1933"/>
+            <item value="1932"/>
+            <item value="1931"/>
+            <item value="1930"/>
+            <item value="1929"/>
+            <item value="1928"/>
+            <item value="1927"/>
+            <item value="1926"/>
+            <item value="1925"/>
+            <item value="1924"/>
+            <item value="1923"/>
+            <item value="1922"/>
+            <item value="1921"/>
+            <item value="1920"/>
+            <item value="1919"/>
+            <item value="1918"/>
+            <item value="1917"/>
+            <item value="1916"/>
+            <item value="1915"/>
+            <item value="1914"/>
+            <item value="1913"/>
+            <item value="1912"/>
+            <item value="1911"/>
+            <item value="1910"/>
+            <item value="1909"/>
+            <item value="1908"/>
+            <item value="1907"/>
+            <item value="1906"/>
+            <item value="1905"/>
+            <item value="1904"/>
+            <item value="1903"/>
+            <item value="1902"/>
+            <item value="1901"/>
+            <item value="1900"/>
+          </model>
+        </properties>
+      </component>
+      <component id="aeef" class="javax.swing.JComboBox" binding="monthSoldComboBox">
+        <constraints>
+          <grid row="22" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <model>
+            <item value=""/>
+            <item value="01"/>
+            <item value="02"/>
+            <item value="03"/>
+            <item value="04"/>
+            <item value="05"/>
+            <item value="06"/>
+            <item value="07"/>
+            <item value="08"/>
+            <item value="09"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+          </model>
+        </properties>
+      </component>
+      <component id="fef6e" class="javax.swing.JComboBox" binding="daySoldComboBox">
+        <constraints>
+          <grid row="22" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="868d7" class="javax.swing.JComboBox" binding="yearArrivedComboBox">
+        <constraints>
+          <grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <model>
+            <item value=""/>
+            <item value="2020"/>
+            <item value="2019"/>
+            <item value="2018"/>
+            <item value="2017"/>
+            <item value="2016"/>
+            <item value="2015"/>
+            <item value="2014"/>
+            <item value="2013"/>
+            <item value="2012"/>
+            <item value="2011"/>
+            <item value="2010"/>
+            <item value="2009"/>
+            <item value="2008"/>
+            <item value="2007"/>
+            <item value="2006"/>
+            <item value="2005"/>
+            <item value="2004"/>
+            <item value="2003"/>
+            <item value="2002"/>
+            <item value="2001"/>
+            <item value="2000"/>
+            <item value="1999"/>
+            <item value="1998"/>
+            <item value="1997"/>
+            <item value="1996"/>
+            <item value="1995"/>
+            <item value="1994"/>
+            <item value="1993"/>
+            <item value="1992"/>
+            <item value="1991"/>
+            <item value="1990"/>
+            <item value="1989"/>
+            <item value="1988"/>
+            <item value="1987"/>
+            <item value="1986"/>
+            <item value="1985"/>
+            <item value="1984"/>
+            <item value="1983"/>
+            <item value="1982"/>
+            <item value="1981"/>
+            <item value="1980"/>
+            <item value="1979"/>
+            <item value="1978"/>
+            <item value="1977"/>
+            <item value="1976"/>
+            <item value="1975"/>
+            <item value="1974"/>
+            <item value="1973"/>
+            <item value="1972"/>
+            <item value="1971"/>
+            <item value="1970"/>
+            <item value="1969"/>
+            <item value="1968"/>
+            <item value="1967"/>
+            <item value="1966"/>
+            <item value="1965"/>
+            <item value="1964"/>
+            <item value="1963"/>
+            <item value="1962"/>
+            <item value="1961"/>
+            <item value="1960"/>
+            <item value="1959"/>
+            <item value="1958"/>
+            <item value="1957"/>
+            <item value="1956"/>
+            <item value="1955"/>
+            <item value="1954"/>
+            <item value="1953"/>
+            <item value="1952"/>
+            <item value="1951"/>
+            <item value="1950"/>
+            <item value="1949"/>
+            <item value="1948"/>
+            <item value="1947"/>
+            <item value="1946"/>
+            <item value="1945"/>
+            <item value="1944"/>
+            <item value="1943"/>
+            <item value="1942"/>
+            <item value="1941"/>
+            <item value="1940"/>
+            <item value="1939"/>
+            <item value="1938"/>
+            <item value="1937"/>
+            <item value="1936"/>
+            <item value="1935"/>
+            <item value="1934"/>
+            <item value="1933"/>
+            <item value="1932"/>
+            <item value="1931"/>
+            <item value="1930"/>
+            <item value="1929"/>
+            <item value="1928"/>
+            <item value="1927"/>
+            <item value="1926"/>
+            <item value="1925"/>
+            <item value="1924"/>
+            <item value="1923"/>
+            <item value="1922"/>
+            <item value="1921"/>
+            <item value="1920"/>
+            <item value="1919"/>
+            <item value="1918"/>
+            <item value="1917"/>
+            <item value="1916"/>
+            <item value="1915"/>
+            <item value="1914"/>
+            <item value="1913"/>
+            <item value="1912"/>
+            <item value="1911"/>
+            <item value="1910"/>
+            <item value="1909"/>
+            <item value="1908"/>
+            <item value="1907"/>
+            <item value="1906"/>
+            <item value="1905"/>
+            <item value="1904"/>
+            <item value="1903"/>
+            <item value="1902"/>
+            <item value="1901"/>
+            <item value="1900"/>
+          </model>
+        </properties>
+      </component>
+      <component id="39869" class="javax.swing.JComboBox" binding="monthArrivedComboBox">
+        <constraints>
+          <grid row="20" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <model>
+            <item value=""/>
+            <item value="01"/>
+            <item value="02"/>
+            <item value="03"/>
+            <item value="04"/>
+            <item value="05"/>
+            <item value="06"/>
+            <item value="07"/>
+            <item value="08"/>
+            <item value="09"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+          </model>
+        </properties>
+      </component>
+      <component id="10b0b" class="javax.swing.JComboBox" binding="dayArrivedComboBox">
+        <constraints>
+          <grid row="20" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <model/>
+        </properties>
+      </component>
+      <vspacer id="fa865">
+        <constraints>
+          <grid row="26" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="152a1">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="93e23" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c02b5" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="26805" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8e55f" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a137d" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="67189" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="60ab4" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3ad8d" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3f6d6" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d37e8" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="66efe">
+        <constraints>
+          <grid row="24" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="629d">
+        <constraints>
+          <grid row="3" column="6" row-span="2" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="c84e1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c60fd" class="javax.swing.JComboBox" binding="typeComboBox">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Coupe"/>
+            <item value="Hatchback"/>
+            <item value="MPV"/>
+            <item value="Saloon"/>
+            <item value="SUV"/>
+            <item value="Van"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a9375" class="javax.swing.JComboBox" binding="vanSizeComboBox">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <enabled value="false"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Small"/>
+            <item value="Large"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a496a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <text value="Transmission Type*"/>
+        </properties>
+      </component>
+      <component id="dedbe" class="javax.swing.JComboBox" binding="transmissionComboBox">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671581"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Automatic"/>
+            <item value="Manual"/>
+          </model>
+        </properties>
+      </component>
+      <component id="99d92" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
